@@ -27,7 +27,7 @@
    - Configures both private and public subnets.
 4. `eks-cluster.tf`: Configures the EKS cluster.
    - Cluster version: `1.29`.
-   - Node groups: master and worker with specified instance types and sizes.
+   - Node groups: main and worker with specified instance types and sizes.
 5. `outputs.tf`: Outputs the cluster name, endpoint, region, and security group ID.
 
 ## Usage
